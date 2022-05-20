@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.day1{
+    margin-right: 60px;
+    background-color: #FFB6C1;
+    margin-top: 15px;
+    text-align: center;
+}
+.day2{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #48D1CC;
+    text-align: center;
+}
+.day3{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #7B68EE;
+    text-align: center;
+}
+.day4{
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #00FF00;
+    text-align: center;
+}
+.day5{
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    background-color: #EE82EE;
+    margin-top: 65px;
+}
+.day6{
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #20B2AA;
+    text-align: center;
+    margin-top: 65px;
+}
+.day7{ 
+    margin-right: 100px;
+    margin-left: 100px;
+    background-color: #FFD700;
+    text-align: center;
+    margin-top: 65px;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+.btn{
+    width: 180px;
+    height: 54px;
+    margin-top: 50%;
+}
+button{
+    box-shadow: #094c66 4px 4px 0px;
+    border-radius: 8px;
+    transition: transfrom 200ms, box-shadow 300ms;
+}
+
+button:active{
+    transform: translateY(4px) translateX(4px);
+    box-shadow: #094c66 0px 0px 0px
+}
+
